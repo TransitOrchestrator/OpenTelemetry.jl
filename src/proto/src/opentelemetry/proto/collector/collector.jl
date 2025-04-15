@@ -1,7 +1,7 @@
 module collector
 
-include("trace/trace.jl")
-include("metrics/metrics.jl")
 include("logs/logs.jl")
+include("metrics/metrics.jl")
+include("trace/trace.jl")
 
 end # module collector
