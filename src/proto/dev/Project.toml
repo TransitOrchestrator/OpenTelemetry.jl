@@ -1,3 +1,4 @@
 [deps]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 ProtoBuf = "3349acd9-ac6a-5e09-bcdb-63829b23a429"
