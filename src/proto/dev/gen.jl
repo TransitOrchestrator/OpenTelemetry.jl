@@ -1,4 +1,4 @@
-OTLP_VERSION = v"0.19.0"
+OTLP_VERSION = v"1.5.0"
 
 using Downloads
 using CodecZlib

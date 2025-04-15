@@ -1,3 +1,21 @@
+"""
+# OpenTelemetry SDK Documentation
+
+This document describes the Julia implementation of the OpenTelemetry SDK specification.
+The implementation follows the [OpenTelemetry SDK Specification](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/README.md)
+and provides the concrete implementations of the API interfaces.
+
+The SDK handles the actual collection, processing, and export of telemetry data. It includes
+implementations of providers, processors, and exporters.
+
+## Related Specifications
+- [SDK Configuration](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/configuration/sdk-configuration.md)
+- [Trace SDK](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/sdk.md)
+- [Metrics SDK](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/metrics/sdk.md)
+- [Logs SDK](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/logs/sdk.md)
+- [Resource SDK](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/resource/sdk.md)
+"""
+
 # OpenTelemetrySDK
 
 ## Exporters

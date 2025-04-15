@@ -1,3 +1,16 @@
+"""
+# Frequently Asked Questions
+
+This document provides answers to common questions about OpenTelemetry.jl.
+For more detailed information, please refer to the [OpenTelemetry Documentation](https://opentelemetry.io/docs/)
+and the [OpenTelemetry Specification](https://github.com/open-telemetry/opentelemetry-specification).
+
+## Related Resources
+- [OpenTelemetry Documentation](https://opentelemetry.io/docs/)
+- [OpenTelemetry Specification](https://github.com/open-telemetry/opentelemetry-specification)
+- [OpenTelemetry Community](https://github.com/open-telemetry/community)
+"""
+
 # FAQ
 
 ## Method overwritten warning

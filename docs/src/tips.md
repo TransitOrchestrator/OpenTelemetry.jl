@@ -1,3 +1,16 @@
+"""
+# OpenTelemetry.jl Tips and Best Practices
+
+This document provides tips and best practices for using OpenTelemetry.jl effectively.
+The recommendations are based on the [OpenTelemetry Best Practices](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/best-practices.md)
+and practical experience with the Julia implementation.
+
+## Related Resources
+- [OpenTelemetry Best Practices](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/best-practices.md)
+- [Instrumentation Best Practices](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/library-guidelines.md)
+- [Performance Best Practices](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/performance.md)
+"""
+
 # Tips for Developers
 
 ## Instrument a Package
