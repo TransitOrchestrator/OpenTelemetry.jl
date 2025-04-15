@@ -1,8 +1,7 @@
 module proto
 
 include("common/common.jl")
-include("collector/collector.jl")
 include("resource/resource.jl")
-include("logs/logs.jl")
+include("trace/trace.jl")
 
 end # module proto
