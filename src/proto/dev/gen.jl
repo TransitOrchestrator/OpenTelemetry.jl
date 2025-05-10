@@ -16,15 +16,22 @@ open(Downloads.download(download_url)) do tar_gz
         "opentelemetry/proto/collector/trace/v1/trace_service.proto",
         proto_dir,
         "../src",
+        common_abstract_type = true,
     )
 
     protojl(
         "opentelemetry/proto/collector/metrics/v1/metrics_service.proto",
         proto_dir,
         "../src",
+        common_abstract_type = true,
     )
 
-    protojl("opentelemetry/proto/collector/logs/v1/logs_service.proto", proto_dir, "../src")
+    protojl(
+        "opentelemetry/proto/collector/logs/v1/logs_service.proto",
+        proto_dir,
+        "../src",
+        common_abstract_type = true,
+    )
 end
 
 # TODO: Still need to manually merge these subpackages

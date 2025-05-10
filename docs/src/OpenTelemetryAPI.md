@@ -1,3 +1,20 @@
+"""
+# OpenTelemetry API Documentation
+
+This document describes the Julia implementation of the OpenTelemetry API specification.
+The implementation follows the [OpenTelemetry API Specification](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/README.md)
+and [OpenTelemetry API Design Principles](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/library-guidelines.md).
+
+The API provides the interfaces and data structures for instrumentation, while the actual implementation
+is provided by the SDK. This separation allows for zero-cost instrumentation when the SDK is not present.
+
+## Related Specifications
+- [Context API](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/context/context.md)
+- [Trace API](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/api.md)
+- [Metrics API](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/metrics/api.md)
+- [Logs API](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/logs/overview.md)
+"""
+
 # OpenTelemetryAPI
 
 The content in this page is organized in the same order as the [OpenTelemetry
